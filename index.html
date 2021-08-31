@@ -7,6 +7,21 @@
     <link rel="stylesheet" href="css/style.css" />
     <link
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css"
+      integrity="sha512-P9vJUXK+LyvAzj8otTOKzdfF1F3UYVl13+F8Fof8/2QNb8Twd6Vb+VD52I7+87tex9UXxnzPgWA3rH96RExA7A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
       integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
       crossorigin="anonymous"
@@ -24,80 +39,112 @@
   <body>
     <div class="head">
       <div class="head__init">
-        <p class="clasic">Feature Places to Stay</p>
-        <div class="line"></div>
+        <div class="clasic">
+          <i class="fas fa-caret-up"> </i> Feature Places to Stay
+        </div>
+        <div class="icon">
+          <div class="line"></div>
+          <i class="far fa-star"></i>
+        </div>
         <h1>A little something for everyone</h1>
       </div>
       <div class="head__main">
-        <p class="head__para">
+        <div class="head__para">
           Boutique hotels, family-friendly hotels, budget-friendly hotels –
           whatever you’re looking for, you’ll find it. Explore the hotel options
           waiting for your arrival
-        </p>
-        <button class="btn">Take Me There</button>
+        </div>
+        <div>
+          <button class="btn btn-background-slide">Take Me There</button>
+        </div>
       </div>
     </div>
     <div class="container slider">
       <div class="card">
-        <!-- <div class="card-image1"> -->
-        <img class="card-image" src="images/pick1.jpg" alt="">
-        <!-- </div> -->
-        <div class="card-text">
-          <h2>The Darcy Hotel</h2>
-          <button class="btn">VIEW DETAILS</button>
+        <header class="card__thumb">
+          <a href=""><img src="images/pick1.jpg" /></a>
+        </header>
+        <div class="card__body">
+          <h2 class="card__title">
+            <a href="">Hotel sumbay </a>
+          </h2>
+          <div class="card__subtitle">
+            <i class="fas fa-blog"></i> an ice cream soda party！
+          </div>
+          <button class="btn btn-background-slide">VIEW MORE</button>
         </div>
       </div>
 
       <div class="card">
-        <img class="card-image" src="images/pick2.jpg" alt="">
-        <div class="card-text">
-          <h2>The Darcy Hotel</h2>
-          <button class="btn">VIEW DETAILS</button>
+        <header class="card__thumb">
+          <a href=""><img src="images/pick2.jpg" /></a>
+        </header>
+
+        <div class="card__body">
+          <h2 class="card__title">
+            <a href="">Hotel moody </a>
+          </h2>
+          <div class="card__subtitle">
+            <i class="fas fa-blog"></i> an ice cream chocklete-ripple party！
+          </div>
+          <button class="btn btn-background-slide">VIEW MORE</button>
         </div>
       </div>
 
       <div class="card">
-        <img class="card-image" src="images/pick3.jpg" alt="">
-        <div class="card-text">
-          <h2>The Darcy Hotel</h2>
-          <button class="btn">VIEW DETAILS</button>
+        <header class="card__thumb">
+          <a href=""><img src="images/pick5.jpg" /></a>
+        </header>
+        <div class="card__body">
+          <h2 class="card__title">
+            <a href="">Hotel sunny </a>
+          </h2>
+          <div class="card__subtitle">
+            <i class="fas fa-blog"></i> Lets join for sundae party！
+          </div>
+          <button class="btn btn-background-slide">VIEW MORE</button>
         </div>
       </div>
 
       <div class="card">
-        <img class="card-image" src="images/pick4.jpg" alt="">
-        <div class="card-text">
-          <h2>The Darcy Hotel</h2>
-          <button class="btn">VIEW DETAILS</button>
+        <header class="card__thumb">
+          <a href=""><img src="images/pick4.jpg" /></a>
+        </header>
+        <div class="card__body">
+          <h2 class="card__title">
+            <a href="">Hotel sunny </a>
+          </h2>
+          <div class="card__subtitle">
+            <i class="fas fa-blog"></i> Lets join for sundae party！
+          </div>
+          <button class="btn btn-background-slide">VIEW MORE</button>
         </div>
       </div>
-
       <div class="card">
-        <img class="card-image" src="images/pick5.jpg" alt="">
-        <div class="card-text">
-          <h2>The Darcy Hotel</h2>
-          <button class="btn">VIEW DETAILS</button>
+        <header class="card__thumb">
+          <a href=""><img src="images/pick5.jpg" /></a>
+        </header>
+
+        <div class="card__body">
+          <h2 class="card__title">
+            <a href="">Hotel sunny </a>
+          </h2>
+          <div class="card__subtitle">
+            <i class="fas fa-blog"></i> Lets join for sundae party！
+          </div>
+          <button class="btn btn-background-slide">VIEW MORE</button>
+        </div>
         </div>
       </div>
-
-      <div class="card">
-        <img class="card-image" src="images/pick6.jpg" alt="">
-        <div class="card-text">
-          <h2>The Darcy Hotel</h2>
-          <button class="btn">VIEW DETAILS</button>
-        </div>
-      </div>
-
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script
+    <script src="js/slick.min.js"></script>
+    <!-- <script
       src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
       integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    ></script>
+    ></script> -->
     <script src="js/main.js"></script>
-     
-    
   </body>
 </html>

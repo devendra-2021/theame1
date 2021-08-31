@@ -1,2 +1,162 @@
 node_modules
 ./node_modules
+
+
+
+// .card {
+  //   display: grid;
+  //   grid-template-columns: 300px;
+  //   grid-template-rows: 210px 210px 80px;
+  //   grid-template-areas: "image" "text";
+
+  //   border-radius: 18px;
+  //   background: white;
+  //   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  //   font-family: roboto;
+  //   text-align: center;
+  //   transition: 0.5s ease;
+  //   cursor: pointer;
+  //   margin: 30px;
+
+  //   .card-image {
+  //     grid-area: image;
+  //     width: 100%;
+  //     height: 20rem;
+  //     border-top-right-radius: 15px;
+  //     border-top-left-radius: 15px;
+  //     background-size: cover;
+  //   }
+  //   .btn {
+  //     // flex: 1 1 auto;
+  //     border: solid 2.6px purple;
+  //     // background-color: var(--grape);
+  //     // text-align: center;
+  //     // align-items: center;
+  //     cursor: pointer;
+  //     margin-top: 4px;
+  //     padding: 10px 25px;
+  //     // overflow-y: hidden;
+  //     left: 0;
+  //     right: 0;
+  //     overflow: hidden;
+  //     width: 100%;
+  //     height: auto;
+  //     // transition: 1.5s ease;
+  //     visibility: hidden;
+  //     // margin-top: 12px;
+  //   }
+  //   .card-text {
+  //     grid-area: text;
+  //     margin-bottom: calc(50% + 20px);
+  //     transition: 1.5s ease;
+  //     margin: 20px;
+  //     margin-top: -120px;
+  //   }
+
+    // .card-image2 {
+    //   grid-area: image;
+    //   background: url("../images/pick2.jpg");
+    //   border-top-left-radius: 15px;
+    //   border-top-right-radius: 15px;
+    //   height: 171%;
+    //   background-size: cover;
+    // }
+
+    // .card-text {
+    //   grid-area: text;
+    //   margin: 25px;
+    // }
+
+  //   .card-text p {
+  //     color: grey;
+  //     font-size: 15px;
+  //     font-weight: 300;
+  //   }
+  //   .card-text h2 {
+  //     margin-top: 140px;
+  //     font-size: 20px;
+  //   }
+  // }
+
+
+
+
+
+  new
+
+
+
+  .card {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text";
+
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+    font-family: roboto;
+    text-align: center;  
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin: 30px;
+
+    .card-image {
+      grid-area: image;
+      width: 100%;
+      height: 20rem;
+      border-top-right-radius: 15px;
+      border-top-left-radius: 15px;
+      background-size: cover;
+    }
+    .btn {
+      // flex: 1 1 auto;
+      border: solid 2.6px purple;
+      // background-color: var(--grape);
+      // text-align: center;
+      // align-items: center;
+      cursor: pointer;
+      margin-top: 4px;
+      padding: 10px 25px;
+      // overflow-y: hidden;
+      left: 0;
+      right: 0;
+      overflow: hidden;
+      width: 100%;
+      height: auto;
+      // transition: 1.5s ease;
+      visibility: hidden;
+      // margin-top: 12px;
+    }
+    .card-text {
+      grid-area: text;
+      margin-bottom: calc(50% + 20px);
+      transition: 1.5s ease;
+      margin: 20px;
+      margin-top: -120px;
+    }
+
+    // .card-image2 {
+    //   grid-area: image;
+    //   background: url("../images/pick2.jpg");
+    //   border-top-left-radius: 15px;
+    //   border-top-right-radius: 15px;
+    //   height: 171%;
+    //   background-size: cover;
+    // }
+
+    // .card-text {
+    //   grid-area: text;
+    //   margin: 25px;
+    // }
+
+    .card-text p {
+      color: grey;
+      font-size: 15px;
+      font-weight: 300;
+    }
+    .card-text h2 {
+      margin-top: 140px;
+      font-size: 20px;
+    }
+  }
